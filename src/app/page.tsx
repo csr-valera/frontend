@@ -29,7 +29,7 @@ export default function Home() {
         </h1>
         
         <p className="text-lg md:text-xl text-slate-400 mb-8 font-light">
-          Estamos creando una nueva experiencia digital. 
+          Estamos creando una nueva experiencia digital. DAYRED 
           <br className="hidden md:block" />
           <span className="font-medium text-slate-300">Sitio Web en Construcción.</span>
         </p>
