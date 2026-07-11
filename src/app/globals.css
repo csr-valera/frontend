@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  /* Paleta Oficial CSR Valera */
+  --color-csr-primary: #16618F;   /* Ocean Blue - Para botones principales y enlaces */
+  --color-csr-secondary: #596C79; /* Slate Gray - Para botones secundarios o subtítulos */
+  --color-csr-accent: #0D1E2B;    /* Dark Navy - Para el Footer o fondos muy oscuros */
+  --color-csr-dark: #1F1F1F;      /* Charcoal - Para el texto principal (párrafos, títulos) */
+  --color-csr-muted: #BDBDBD;     /* Light Gray - Para bordes, líneas separadoras o texto secundario */
+  --color-csr-light: #FFFFFF;     /* White - Para fondos de tarjetas o secciones claras */
+}
+
+/* Opcional: Estilos base para el cuerpo de la página */
+@layer base {
+  body {
+    @apply bg-white text-csr-dark antialiased;
+  }
+}
